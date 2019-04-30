@@ -1,0 +1,824 @@
+{
+  "carreers" : {
+    "2879" : {
+      "freeCredits" : 33,
+      "subjects2" : [ "1000004", "2025975", "2015734", "1000019", "1000005", "1000003", "2016375", "1000013", "1000006", "2016353", "2025963", "2016698", "1000017", "2015703", "2025964", "2016699", "2016697", "2025970", "2025971", "2015702", "2025967", "2016701", "2015174", "2015970", "2025982", "2016702", "2016696", "2016707", "2025969", "2025994", "2016703", "2016716", "2025966", "2025995", "2016722", "2025960", "2024045", "2025983", "2025972", "0000001" ],
+      "subjects3" : [ {
+        "id" : "1000004"
+      }, {
+        "id" : "2025975"
+      }, {
+        "id" : "2015734"
+      }, {
+        "id" : "1000019"
+      }, {
+        "id" : "1000005"
+      }, {
+        "id" : "1000003"
+      }, {
+        "id" : "2016375"
+      }, {
+        "id" : "1000013"
+      }, {
+        "id" : "1000006"
+      }, {
+        "id" : "2016353"
+      }, {
+        "id" : "2025963"
+      }, {
+        "id" : "2016698"
+      }, {
+        "id" : "1000017"
+      }, {
+        "id" : "2015703"
+      }, {
+        "id" : "2025964"
+      }, {
+        "id" : "2016699"
+      }, {
+        "id" : "2016697"
+      }, {
+        "id" : "2025970"
+      }, {
+        "id" : "2025971"
+      }, {
+        "id" : "2015702"
+      }, {
+        "id" : "2025967"
+      }, {
+        "id" : "2016701"
+      }, {
+        "id" : "2015174"
+      }, {
+        "id" : "2015970"
+      }, {
+        "id" : "2025982"
+      }, {
+        "id" : "2016702"
+      }, {
+        "id" : "2016696"
+      }, {
+        "id" : "2016707"
+      }, {
+        "id" : "2025969"
+      }, {
+        "id" : "2025994"
+      }, {
+        "id" : "2016703"
+      }, {
+        "id" : "2016716"
+      }, {
+        "id" : "2025966"
+      }, {
+        "id" : "2025995"
+      }, {
+        "id" : "2016722"
+      }, {
+        "id" : "2025960"
+      }, {
+        "id" : "2024045"
+      }, {
+        "id" : "2025983"
+      }, {
+        "id" : "2025972"
+      }, {
+        "id" : "0000001"
+      } ],
+      "title" : "Ingeniería de sistemas y computación"
+    }
+  },
+  "students" : {
+    "alejo" : {
+      "carreer" : "2879",
+      "current" : {
+        "id" : "2018-II",
+        "semester" : [ "1000006", "1000017" ]
+      },
+      "plan" : {
+        "2019-I" : [ "1000017", "2015703", "1000013", "2015970" ],
+        "2019-II" : [ "2015702", "2025967", "2016696", "2025970" ],
+        "2020-I" : [ "2016702", "2025971", "2016722", "2025994", "2025972" ],
+        "2020-II" : [ "2025995", "2016716", "2024045" ],
+        "2021-I" : [ "2025983", "0000001" ]
+      },
+      "title" : "Malla curricular - Demo"
+    },
+    "sebas" : {
+      "carreer" : "2506",
+      "current" : {
+        "id" : "2018-II",
+        "semester" : {
+          "2017200" : {
+            "group" : "1"
+          },
+          "2017207" : {
+            "group" : "3"
+          },
+          "2017214" : {
+            "group" : "2"
+          },
+          "2017222" : {
+            "group" : "3"
+          },
+          "2017241" : {
+            "group" : "2"
+          }
+        }
+      },
+      "history" : {
+        "2017-II" : {
+          "2017194" : {
+            "grade" : 3.1,
+            "group" : "2"
+          },
+          "2017198" : {
+            "grade" : 3.7,
+            "group" : "2"
+          },
+          "2017203" : {
+            "grade" : 3.9,
+            "group" : "1"
+          },
+          "2017212" : {
+            "grade" : 4.1,
+            "group" : "3"
+          },
+          "2017220" : {
+            "grade" : 4.0,
+            "group" : "3"
+          },
+          "2017240" : {
+            "grade" : 3.5,
+            "group" : "3"
+          }
+        },
+        "2018-I" : {
+          "2017199" : {
+            "grade" : 3.3,
+            "group" : "2"
+          },
+          "2017213" : {
+            "grade" : 5.0,
+            "group" : "3"
+          },
+          "2017221" : {
+            "grade" : 3.7,
+            "group" : "4"
+          },
+          "2017236" : {
+            "grade" : 4.0,
+            "group" : "2"
+          }
+        }
+      },
+      "title" : "Malla curricular - Demo"
+    },
+    "yeyo" : {
+      "carreer" : "2879",
+      "history" : {
+        "2015-I" : {
+          "1000002" : {
+            "grade" : 5,
+            "group" : "3"
+          },
+          "1000004" : {
+            "grade" : 4.6,
+            "group" : "9"
+          },
+          "2015734" : {
+            "grade" : 4.8,
+            "group" : "21"
+          },
+          "2025975" : {
+            "grade" : 4,
+            "group" : "2"
+          },
+          "2026784" : {
+            "grade" : 4.5,
+            "group" : "1"
+          }
+        },
+        "2015-II" : {
+          "1000003" : {
+            "grade" : 4.2,
+            "group" : "12"
+          },
+          "1000005" : {
+            "grade" : 4.1,
+            "group" : "3"
+          },
+          "1000019" : {
+            "grade" : 4.3,
+            "group" : "9"
+          },
+          "2022630" : {
+            "grade" : 4,
+            "group" : "1"
+          }
+        },
+        "2016-I" : {
+          "1000006" : {
+            "grade" : 4,
+            "group" : "6"
+          },
+          "1000013" : {
+            "grade" : 4.1,
+            "group" : "10"
+          },
+          "2016698" : {
+            "grade" : 4.5,
+            "group" : "1"
+          },
+          "2016699" : {
+            "grade" : 4.0,
+            "group" : "3"
+          },
+          "2025963" : {
+            "grade" : 4.4,
+            "group" : "1"
+          }
+        },
+        "2016-II" : {
+          "1000017" : {
+            "grade" : 3.6,
+            "group" : "5"
+          },
+          "2015703" : {
+            "grade" : 3.3,
+            "group" : "2"
+          },
+          "2016353" : {
+            "grade" : 3.9,
+            "group" : "1"
+          },
+          "2016697" : {
+            "grade" : 4.3,
+            "group" : "2"
+          },
+          "2025964" : {
+            "grade" : 3.5,
+            "group" : "2"
+          }
+        },
+        "2017-I" : {
+          "2015174" : {
+            "grade" : 4.2,
+            "group" : "1"
+          },
+          "2015702" : {
+            "grade" : 3.4,
+            "group" : "3"
+          },
+          "2016701" : {
+            "grade" : 4.3,
+            "group" : "1"
+          },
+          "2025967" : {
+            "grade" : 4.1,
+            "group" : "2"
+          },
+          "2025970" : {
+            "grade" : 4,
+            "group" : "1"
+          }
+        },
+        "2017-II" : {
+          "2015970" : {
+            "grade" : 3.7,
+            "group" : "1"
+          },
+          "2016083" : {
+            "grade" : 4.5,
+            "group" : "1"
+          },
+          "2016696" : {
+            "grade" : 3.8,
+            "group" : "1"
+          },
+          "2016702" : {
+            "grade" : 4.2,
+            "group" : "2"
+          },
+          "2016707" : {
+            "grade" : 4.6,
+            "group" : "1"
+          },
+          "2025982" : {
+            "grade" : 3.6,
+            "group" : "3"
+          }
+        },
+        "2018-I" : {
+          "2016065" : {
+            "grade" : 3.9,
+            "group" : "2"
+          },
+          "2016703" : {
+            "grade" : 4.2,
+            "group" : "1"
+          },
+          "2016716" : {
+            "grade" : 4.2,
+            "group" : "2"
+          },
+          "2025966" : {
+            "grade" : 3.6,
+            "group" : "1"
+          },
+          "2025994" : {
+            "grade" : 3.7,
+            "group" : "2"
+          }
+        },
+        "2018-II" : {
+          "2025960" : {
+            "grade" : 3.9,
+            "group" : "2"
+          },
+          "2025995" : {
+            "grade" : 4.2,
+            "group" : "1"
+          },
+          "2027100" : {
+            "grade" : 4.2,
+            "group" : "2"
+          }
+        }
+      },
+      "plan" : {
+        "2019-I" : [ "2016722", "2025971", "2025972", "2016070", "2016063", "2016099" ],
+        "2019-II" : [ "2025983", "2025969", "2016104", "2016068", "2016075", "2016071" ],
+        "2020-I" : [ "2016102", "2016081", "2016076", "2016918", "2016066" ],
+        "2020-II" : [ "0000001", "2024045" ]
+      },
+      "title" : "Malla curricular - Demo"
+    },
+    "yisus" : {
+      "carreer" : "2879",
+      "plan" : {
+        "2019-I" : [ "2016722", "2025972", "2025960" ],
+        "2019-II" : [ "2025983", "2019764" ],
+        "2020-I" : [ "0000001", "2024045", "2015168", "2026573" ]
+      },
+      "title" : "Malla curricular - Demo"
+    }
+  },
+  "subjectTypes" : {
+    "B" : "Fundamentación",
+    "C" : "Disciplinar",
+    "L" : "Libre elección",
+    "P" : "Nivelación"
+  },
+  "subjects" : {
+    "2019764" : {
+      "credits" : 4,
+      "title" : "Aprendizaje de máquina",
+      "type" : "L"
+    },
+    "2015168" : {
+      "credits" : 4,
+      "title" : "Fundamentos de matemáticas",
+      "type" : "L"
+    },
+    "2026573" : {
+      "credits" : 3,
+      "title" : "Introducción a las ciencias de la computación y a la programación",
+      "type" : "L"
+    },
+    "0000001" : {
+      "credits" : 6,
+      "title" : "Trabajo de grado",
+      "type" : "C"
+    },
+    "1000002" : {
+      "credits" : 4,
+      "title" : "Lecto-escritura",
+      "type" : "P"
+    },
+    "1000003" : {
+      "credits" : 4,
+      "prerequisites" : [ "1000004" ],
+      "title" : "Álgebra lineal",
+      "type" : "B"
+    },
+    "1000004" : {
+      "credits" : 4,
+      "title" : "Cálculo diferencial",
+      "type" : "B"
+    },
+    "1000005" : {
+      "credits" : 4,
+      "prerequisites" : [ "1000004" ],
+      "title" : "Cálculo integral",
+      "type" : "B"
+    },
+    "1000006" : {
+      "credits" : 4,
+      "prerequisites" : [ "1000005" ],
+      "title" : "Calculo en varias variables",
+      "type" : "B"
+    },
+    "1000013" : {
+      "credits" : 3,
+      "prerequisites" : [ "1000005" ],
+      "title" : "Probabilidad y estadística",
+      "type" : "B"
+    },
+    "1000017" : {
+      "credits" : 4,
+      "prerequisites" : [ "1000005" ],
+      "title" : "Fundamentos de electricidad y magnetismo",
+      "type" : "B"
+    },
+    "1000019" : {
+      "credits" : 4,
+      "prerequisites" : [ "1000004" ],
+      "title" : "Fundamentos de mecánica",
+      "type" : "B"
+    },
+    "2015174" : {
+      "credits" : 4,
+      "prerequisites" : [ "2025963", "2016697" ],
+      "title" : "Introducción a la teória de la computación",
+      "type" : "B"
+    },
+    "2015702" : {
+      "credits" : 3,
+      "prerequisites" : [ "2015703" ],
+      "title" : "Gerencia y gestión de proyectos",
+      "type" : "B"
+    },
+    "2015703" : {
+      "credits" : 3,
+      "prerequisites" : [ "1000006" ],
+      "title" : "Ingeniería económica",
+      "type" : "B"
+    },
+    "2015734" : {
+      "credits" : 4,
+      "title" : "Programación de computadores",
+      "type" : "C"
+    },
+    "2015970" : {
+      "credits" : 3,
+      "prerequisites" : [ "2025964", "1000006" ],
+      "title" : "Métodos Númericos",
+      "type" : "B"
+    },
+    "2016061" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016066" ],
+      "title" : "Bocetación e ilustración",
+      "type" : "C"
+    },
+    "2016062" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016918" ],
+      "title" : "Fotografía III",
+      "type" : "C"
+    },
+    "2016063" : {
+      "credits" : 2,
+      "title" : "Esquemática básica",
+      "type" : "C"
+    },
+    "2016065" : {
+      "credits" : 2,
+      "title" : "Expresión visual",
+      "type" : "C"
+    },
+    "2016066" : {
+      "credits" : 3,
+      "title" : "Figura humana y representación",
+      "type" : "C"
+    },
+    "2016068" : {
+      "credits" : 3,
+      "title" : "Fotografía I",
+      "type" : "C"
+    },
+    "2016069" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016071" ],
+      "title" : "Fundamentos tecnológicos: Color y producción",
+      "type" : "C"
+    },
+    "2016070" : {
+      "credits" : 2,
+      "title" : "Fundamentos tecnológicos: Formatos y medidas",
+      "type" : "C"
+    },
+    "2016071" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016070" ],
+      "title" : "Fundamentos tecnológicos: Tipometría",
+      "type" : "C"
+    },
+    "2016072" : {
+      "credits" : 3,
+      "title" : "Gestión cultural y empresarial en las artes",
+      "type" : "B"
+    },
+    "2016073" : {
+      "credits" : 3,
+      "title" : "Herencias - Una mirada a la historia de las artes",
+      "type" : "B"
+    },
+    "2016074" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016077" ],
+      "title" : "Historia del diseño gráfico: Contextos del diseño en Colombia",
+      "type" : "C"
+    },
+    "2016075" : {
+      "credits" : 3,
+      "title" : "Historia del diseño gráfico: De la imagen a la palabra",
+      "type" : "C"
+    },
+    "2016076" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016075" ],
+      "title" : "Historia del diseño gráfico: De las artes al diseño",
+      "type" : "C"
+    },
+    "2016077" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016076" ],
+      "title" : "Historia del diseño gráfico: De los ismos a los medios",
+      "type" : "C"
+    },
+    "2016078" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016077" ],
+      "title" : "Historia del diseño gráfico: Sociedad, cultura y diseño en Latinoamérica",
+      "type" : "C"
+    },
+    "2016079" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016061" ],
+      "title" : "Imagen dinámica",
+      "type" : "C"
+    },
+    "2016080" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016061" ],
+      "title" : "Aplicaciones gráficas tridimensionales",
+      "type" : "C"
+    },
+    "2016081" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016104" ],
+      "title" : "Palabra e imagen",
+      "type" : "B"
+    },
+    "2016082" : {
+      "credits" : 3,
+      "title" : "Problemas contemporáneos de las artes",
+      "type" : "B"
+    },
+    "2016083" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016069" ],
+      "title" : "Producción en medios digitales",
+      "type" : "C"
+    },
+    "2016084" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016069" ],
+      "title" : "Producción en medios impresos",
+      "type" : "C"
+    },
+    "2016085" : {
+      "credits" : 3,
+      "title" : "Responsabilidad socio-ambiental de las artes",
+      "type" : "B"
+    },
+    "2016086" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016074", "2016075", "2016076", "2016077", "2016078", "2016105", "2016106" ],
+      "title" : "Seminario de investigación y proyecto de diseño",
+      "type" : "B"
+    },
+    "2016099" : {
+      "credits" : 5,
+      "title" : "Taller forma y estructura",
+      "type" : "C"
+    },
+    "2016101" : {
+      "credits" : 5,
+      "prerequisites" : [ "2016102" ],
+      "title" : "Taller orientación y diseño de información",
+      "type" : "C"
+    },
+    "2016102" : {
+      "credits" : 5,
+      "prerequisites" : [ "2016099" ],
+      "title" : "Taller signo y letra",
+      "type" : "C"
+    },
+    "2016103" : {
+      "credits" : 5,
+      "prerequisites" : [ "2016102" ],
+      "title" : "Taller tipografía, composición y diagramación",
+      "type" : "C"
+    },
+    "2016104" : {
+      "credits" : 3,
+      "title" : "Teoría de la mirada",
+      "type" : "B"
+    },
+    "2016105" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016064" ],
+      "title" : "Teorías de la comunicación visual I",
+      "type" : "C"
+    },
+    "2016106" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016064" ],
+      "title" : "Teorías de la comunicación visual II",
+      "type" : "C"
+    },
+    "2016353" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016375" ],
+      "title" : "Bases de datos",
+      "type" : "C"
+    },
+    "2016375" : {
+      "credits" : 3,
+      "prerequisites" : [ "2015734" ],
+      "title" : "Programación orientada a objetos",
+      "type" : "C"
+    },
+    "2016696" : {
+      "credits" : 3,
+      "prerequisites" : [ "1000013", "2025964", "2016699" ],
+      "title" : "Algoritmos",
+      "type" : "C"
+    },
+    "2016697" : {
+      "credits" : 4,
+      "prerequisites" : [ "2016698" ],
+      "title" : "Arquitectura de computadores",
+      "type" : "C"
+    },
+    "2016698" : {
+      "credits" : 3,
+      "prerequisites" : [ "2025975" ],
+      "title" : "Elementos de computadores",
+      "type" : "C"
+    },
+    "2016699" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016375" ],
+      "title" : "Estructuras de datos",
+      "type" : "C"
+    },
+    "2016701" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016699", "2016353" ],
+      "title" : "Ingeniería de software I",
+      "type" : "C"
+    },
+    "2016702" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016701", "2025967" ],
+      "title" : "Ingeniería de software II",
+      "type" : "C"
+    },
+    "2016703" : {
+      "credits" : 3,
+      "prerequisites" : [ "2025982", "2025970" ],
+      "title" : "Pensamiento sistemico",
+      "type" : "C"
+    },
+    "2016707" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016697" ],
+      "title" : "Sistemas operativos",
+      "type" : "C"
+    },
+    "2016716" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016702" ],
+      "title" : "Arquitectura de software",
+      "type" : "C"
+    },
+    "2016722" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016696", "2025967", "2016707" ],
+      "title" : "Computación paralela y distribuida",
+      "type" : "C"
+    },
+    "2016918" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016068" ],
+      "title" : "Fotografía II",
+      "type" : "C"
+    },
+    "2022630" : {
+      "credits" : 3,
+      "title" : "Italiano I",
+      "type" : "L"
+    },
+    "2024045" : {
+      "credits" : 3,
+      "title" : "Taller de proyectos interdisciplinarios",
+      "type" : "C"
+    },
+    "2025960" : {
+      "credits" : 3,
+      "prerequisites" : [ "2025994", "2016696" ],
+      "title" : "Computación visual",
+      "type" : "C"
+    },
+    "2025963" : {
+      "credits" : 4,
+      "prerequisites" : [ "1000003" ],
+      "title" : "Matemáticas discretas I",
+      "type" : "B"
+    },
+    "2025964" : {
+      "credits" : 4,
+      "prerequisites" : [ "2025963" ],
+      "title" : "Matemáticas discretas II",
+      "type" : "B"
+    },
+    "2025966" : {
+      "credits" : 3,
+      "prerequisites" : [ "2015174", "2016699" ],
+      "title" : "Lenguajes de programación",
+      "type" : "C"
+    },
+    "2025967" : {
+      "credits" : 3,
+      "prerequisites" : [ "1000017", "2016699", "2016697" ],
+      "title" : "Redes de computadores",
+      "type" : "C"
+    },
+    "2025969" : {
+      "credits" : 3,
+      "prerequisites" : [ "2025971" ],
+      "title" : "Modelos estocásticos y simulación en computación y comunicaciones",
+      "type" : "C"
+    },
+    "2025970" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016375", "1000013", "1000006", "2025964" ],
+      "title" : "Modelos y simulación",
+      "type" : "C"
+    },
+    "2025971" : {
+      "credits" : 3,
+      "prerequisites" : [ "2025970" ],
+      "title" : "Optimización",
+      "type" : "C"
+    },
+    "2025972" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016696", "2025967", "1000013" ],
+      "title" : "Criptografía y seguridad de la información",
+      "type" : "C"
+    },
+    "2025975" : {
+      "credits" : 3,
+      "title" : "Introducción a la ingeniería de sistemas y computación",
+      "type" : "C"
+    },
+    "2025982" : {
+      "credits" : 3,
+      "prerequisites" : [ "2015702", "2016375" ],
+      "title" : "Sistemas de información",
+      "type" : "C"
+    },
+    "2025983" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016716", "2025982", "2016707" ],
+      "title" : "Arquitectura de infraestructura y gobierno de TICs",
+      "type" : "C"
+    },
+    "2025994" : {
+      "credits" : 3,
+      "prerequisites" : [ "2025967", "2016696" ],
+      "title" : "Teoría de la Información y Sistemas de Comunicaciones",
+      "type" : "C"
+    },
+    "2025995" : {
+      "credits" : 3,
+      "prerequisites" : [ "2016696" ],
+      "title" : "Introducción a los sistemas inteligentes",
+      "type" : "C"
+    },
+    "2026784" : {
+      "credits" : 3,
+      "title" : "Cátedra Marta Traba: Ciudades universitarias, un proyecto moderno en América Latina",
+      "type" : "L"
+    },
+    "2027100" : {
+      "credits" : 4,
+      "title" : "Intensive english II - internationalization",
+      "type" : "L"
+    }
+  }
+}

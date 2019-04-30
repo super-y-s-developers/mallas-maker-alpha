@@ -1,0 +1,553 @@
+{
+  "0000001" : {
+    "credits" : 6,
+    "title" : "Trabajo de grado - Ingenieria de sistemas",
+    "type" : "C"
+  },
+  "000002" : {
+    "credits" : 3,
+    "title" : "Optativa algoritmos",
+    "type" : "L"
+  },
+  "1000002" : {
+    "credits" : 4,
+    "title" : "Lecto-escritura",
+    "type" : "P"
+  },
+  "1000003" : {
+    "credits" : 4,
+    "prerequisites" : [ "1000004" ],
+    "title" : "Álgebra lineal",
+    "type" : "B"
+  },
+  "1000004" : {
+    "credits" : 4,
+    "title" : "Cálculo diferencial",
+    "type" : "B"
+  },
+  "1000005" : {
+    "credits" : 4,
+    "prerequisites" : [ "1000004" ],
+    "title" : "Cálculo integral",
+    "type" : "B"
+  },
+  "1000006" : {
+    "credits" : 4,
+    "prerequisites" : [ "1000005" ],
+    "title" : "Calculo en varias variables",
+    "type" : "B"
+  },
+  "1000013" : {
+    "credits" : 3,
+    "prerequisites" : [ "1000005" ],
+    "title" : "Probabilidad y estadística",
+    "type" : "B"
+  },
+  "1000017" : {
+    "credits" : 4,
+    "prerequisites" : [ "1000005" ],
+    "title" : "Fundamentos de electricidad y magnetismo",
+    "type" : "B"
+  },
+  "1000019" : {
+    "credits" : 4,
+    "prerequisites" : [ "1000004" ],
+    "title" : "Fundamentos de mecánica",
+    "type" : "B"
+  },
+  "2015150" : {
+    "credits" : 4,
+    "prerequisites" : [ "2015155" ],
+    "title" : "Análisis numérico",
+    "type" : "L"
+  },
+  "2015152" : {
+    "credits" : 4,
+    "prerequisites" : [ "2025819" ],
+    "title" : "Grupos y anillos",
+    "type" : "L"
+  },
+  "2015154" : {
+    "credits" : 8,
+    "title" : "Trabajo de grado",
+    "type" : "L"
+  },
+  "2015155" : {
+    "credits" : 4,
+    "prerequisites" : [ "2025819" ],
+    "title" : "Introducción al análisis real",
+    "type" : "L"
+  },
+  "2015168" : {
+    "credits" : 4,
+    "title" : "Fundamentos de matemáticas",
+    "type" : "L"
+  },
+  "2015174" : {
+    "credits" : 4,
+    "prerequisites" : [ "2025963", "2016697" ],
+    "title" : "Introducción a la teória de la computación",
+    "type" : "B"
+  },
+  "2015178" : {
+    "credits" : 4,
+    "title" : "Probabilidad",
+    "type" : "L"
+  },
+  "2015181" : {
+    "credits" : 4,
+    "prerequisites" : [ "2015168" ],
+    "title" : "Sistemas numéricos",
+    "type" : "L"
+  },
+  "2015184" : {
+    "credits" : 4,
+    "prerequisites" : [ "2025819" ],
+    "title" : "Teoría de grafos",
+    "type" : "L"
+  },
+  "2015304" : {
+    "credits" : 6,
+    "title" : "Trabajo de Grado - Diseño gráfico",
+    "type" : "C"
+  },
+  "2015702" : {
+    "credits" : 3,
+    "prerequisites" : [ "2015703" ],
+    "title" : "Gerencia y gestión de proyectos",
+    "type" : "B"
+  },
+  "2015703" : {
+    "credits" : 3,
+    "prerequisites" : [ "1000006" ],
+    "title" : "Ingeniería económica",
+    "type" : "B"
+  },
+  "2015734" : {
+    "credits" : 4,
+    "title" : "Programación de computadores",
+    "type" : "C"
+  },
+  "2015970" : {
+    "credits" : 3,
+    "prerequisites" : [ "2025964", "1000006" ],
+    "title" : "Métodos Númericos",
+    "type" : "B"
+  },
+  "2016061" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016066" ],
+    "title" : "Bocetación e ilustración",
+    "type" : "C"
+  },
+  "2016062" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016918" ],
+    "title" : "Fotografía III",
+    "type" : "C"
+  },
+  "2016063" : {
+    "credits" : 2,
+    "title" : "Esquemática básica",
+    "type" : "C"
+  },
+  "2016064" : {
+    "credits" : 3,
+    "title" : "Estética y teoría de la imagen",
+    "type" : "B"
+  },
+  "2016065" : {
+    "credits" : 2,
+    "title" : "Expresión visual",
+    "type" : "C"
+  },
+  "2016066" : {
+    "credits" : 3,
+    "title" : "Figura humana y representación",
+    "type" : "C"
+  },
+  "2016068" : {
+    "credits" : 3,
+    "title" : "Fotografía I",
+    "type" : "C"
+  },
+  "2016069" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016071" ],
+    "title" : "Fundamentos tecnológicos: Color y producción",
+    "type" : "C"
+  },
+  "2016070" : {
+    "credits" : 2,
+    "title" : "Fundamentos tecnológicos: Formatos y medidas",
+    "type" : "C"
+  },
+  "2016071" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016070" ],
+    "title" : "Fundamentos tecnológicos: Tipometría",
+    "type" : "C"
+  },
+  "2016072" : {
+    "credits" : 3,
+    "title" : "Gestión cultural y empresarial en las artes",
+    "type" : "B"
+  },
+  "2016073" : {
+    "credits" : 3,
+    "title" : "Herencias - Una mirada a la historia de las artes",
+    "type" : "B"
+  },
+  "2016074" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016077" ],
+    "title" : "Historia del diseño gráfico: Contextos del diseño en Colombia",
+    "type" : "C"
+  },
+  "2016075" : {
+    "credits" : 3,
+    "title" : "Historia del diseño gráfico: De la imagen a la palabra",
+    "type" : "C"
+  },
+  "2016076" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016075" ],
+    "title" : "Historia del diseño gráfico: De las artes al diseño",
+    "type" : "C"
+  },
+  "2016077" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016076" ],
+    "title" : "Historia del diseño gráfico: De los ismos a los medios",
+    "type" : "C"
+  },
+  "2016078" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016077" ],
+    "title" : "Historia del diseño gráfico: Sociedad, cultura y diseño en Latinoamérica",
+    "type" : "C"
+  },
+  "2016079" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016061" ],
+    "title" : "Imagen dinámica",
+    "type" : "C"
+  },
+  "2016080" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016061" ],
+    "title" : "Aplicaciones gráficas tridimensionales",
+    "type" : "C"
+  },
+  "2016081" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016104" ],
+    "title" : "Palabra e imagen",
+    "type" : "B"
+  },
+  "2016082" : {
+    "credits" : 3,
+    "title" : "Problemas contemporáneos de las artes",
+    "type" : "B"
+  },
+  "2016083" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016069" ],
+    "title" : "Producción en medios digitales",
+    "type" : "C"
+  },
+  "2016084" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016069" ],
+    "title" : "Producción en medios impresos",
+    "type" : "C"
+  },
+  "2016085" : {
+    "credits" : 3,
+    "title" : "Responsabilidad socio-ambiental de las artes",
+    "type" : "B"
+  },
+  "2016086" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016074", "2016075", "2016076", "2016077", "2016078", "2016105", "2016106" ],
+    "title" : "Seminario de investigación y proyecto de diseño",
+    "type" : "B"
+  },
+  "2016099" : {
+    "credits" : 5,
+    "title" : "Taller forma y estructura",
+    "type" : "C"
+  },
+  "2016100" : {
+    "credits" : 5,
+    "prerequisites" : [ "2016103" ],
+    "title" : "Taller identidad e imagen coordinada",
+    "type" : "C"
+  },
+  "2016101" : {
+    "credits" : 5,
+    "prerequisites" : [ "2016103" ],
+    "title" : "Taller orientación y diseño de información",
+    "type" : "C"
+  },
+  "2016102" : {
+    "credits" : 5,
+    "prerequisites" : [ "2016099" ],
+    "title" : "Taller signo y letra",
+    "type" : "C"
+  },
+  "2016103" : {
+    "credits" : 5,
+    "prerequisites" : [ "2016102" ],
+    "title" : "Taller tipografía, composición y diagramación",
+    "type" : "C"
+  },
+  "2016104" : {
+    "credits" : 3,
+    "title" : "Teoría de la mirada",
+    "type" : "B"
+  },
+  "2016105" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016064" ],
+    "title" : "Teorías de la comunicación visual I",
+    "type" : "C"
+  },
+  "2016106" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016064" ],
+    "title" : "Teorías de la comunicación visual II",
+    "type" : "C"
+  },
+  "2016342" : {
+    "credits" : 4,
+    "title" : "Ecuaciones diferenciales",
+    "type" : "L"
+  },
+  "2016353" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016375" ],
+    "title" : "Bases de datos",
+    "type" : "C"
+  },
+  "2016375" : {
+    "credits" : 3,
+    "prerequisites" : [ "2015734" ],
+    "title" : "Programación orientada a objetos",
+    "type" : "C"
+  },
+  "2016696" : {
+    "credits" : 3,
+    "prerequisites" : [ "1000013", "2025964", "2016699" ],
+    "title" : "Algoritmos",
+    "type" : "C"
+  },
+  "2016697" : {
+    "credits" : 4,
+    "prerequisites" : [ "2016698" ],
+    "title" : "Arquitectura de computadores",
+    "type" : "C"
+  },
+  "2016698" : {
+    "credits" : 3,
+    "prerequisites" : [ "2025975" ],
+    "title" : "Elementos de computadores",
+    "type" : "C"
+  },
+  "2016699" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016375" ],
+    "title" : "Estructuras de datos",
+    "type" : "C"
+  },
+  "2016701" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016699", "2016353" ],
+    "title" : "Ingeniería de software I",
+    "type" : "C"
+  },
+  "2016702" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016701", "2025967" ],
+    "title" : "Ingeniería de software II",
+    "type" : "C"
+  },
+  "2016703" : {
+    "credits" : 3,
+    "prerequisites" : [ "2025982", "2025970" ],
+    "title" : "Pensamiento sistemico",
+    "type" : "C"
+  },
+  "2016707" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016697" ],
+    "title" : "Sistemas operativos",
+    "type" : "C"
+  },
+  "2016716" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016702" ],
+    "title" : "Arquitectura de software",
+    "type" : "C"
+  },
+  "2016722" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016696", "2025967", "2016707" ],
+    "title" : "Computación paralela y distribuida",
+    "type" : "C"
+  },
+  "2016918" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016068" ],
+    "title" : "Fotografía II",
+    "type" : "C"
+  },
+  "2019764" : {
+    "credits" : 4,
+    "title" : "Aprendizaje de máquina",
+    "type" : "L"
+  },
+  "2022630" : {
+    "credits" : 3,
+    "title" : "Italiano I",
+    "type" : "L"
+  },
+  "2024045" : {
+    "credits" : 3,
+    "title" : "Taller de proyectos interdisciplinarios",
+    "type" : "C"
+  },
+  "2025819" : {
+    "credits" : 4,
+    "prerequisites" : [ "2015181" ],
+    "title" : "Introducción a la teoría de conjuntos",
+    "type" : "L"
+  },
+  "2025960" : {
+    "credits" : 3,
+    "prerequisites" : [ "2025994", "2016696" ],
+    "title" : "Computación visual",
+    "type" : "C"
+  },
+  "2025963" : {
+    "credits" : 4,
+    "prerequisites" : [ "1000003" ],
+    "title" : "Matemáticas discretas I",
+    "type" : "B"
+  },
+  "2025964" : {
+    "credits" : 4,
+    "prerequisites" : [ "2025963" ],
+    "title" : "Matemáticas discretas II",
+    "type" : "B"
+  },
+  "2025966" : {
+    "credits" : 3,
+    "prerequisites" : [ "2015174", "2016699" ],
+    "title" : "Lenguajes de programación",
+    "type" : "C"
+  },
+  "2025967" : {
+    "credits" : 3,
+    "prerequisites" : [ "1000017", "2016699", "2016697" ],
+    "title" : "Redes de computadores",
+    "type" : "C"
+  },
+  "2025969" : {
+    "credits" : 3,
+    "prerequisites" : [ "2025971" ],
+    "title" : "Modelos estocásticos y simulación en computación y comunicaciones",
+    "type" : "C"
+  },
+  "2025970" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016375", "1000013", "1000006", "2025964" ],
+    "title" : "Modelos y simulación",
+    "type" : "C"
+  },
+  "2025971" : {
+    "credits" : 3,
+    "prerequisites" : [ "2025970" ],
+    "title" : "Optimización",
+    "type" : "C"
+  },
+  "2025972" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016696", "2025967", "1000013" ],
+    "title" : "Criptografía y seguridad de la información",
+    "type" : "C"
+  },
+  "2025975" : {
+    "credits" : 3,
+    "title" : "Introducción a la ingeniería de sistemas y computación",
+    "type" : "C"
+  },
+  "2025982" : {
+    "credits" : 3,
+    "prerequisites" : [ "2015702", "2016375" ],
+    "title" : "Sistemas de información",
+    "type" : "C"
+  },
+  "2025983" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016716", "2025982", "2016707" ],
+    "title" : "Arquitectura de infraestructura y gobierno de TICs",
+    "type" : "C"
+  },
+  "2025994" : {
+    "credits" : 3,
+    "prerequisites" : [ "2025967", "2016696" ],
+    "title" : "Teoría de la Información y Sistemas de Comunicaciones",
+    "type" : "C"
+  },
+  "2025995" : {
+    "credits" : 3,
+    "prerequisites" : [ "2016696" ],
+    "title" : "Introducción a los sistemas inteligentes",
+    "type" : "C"
+  },
+  "2026555" : {
+    "credits" : 4,
+    "prerequisites" : [ "2025819" ],
+    "title" : "Álgebra abstracta y computacional",
+    "type" : "L"
+  },
+  "2026573" : {
+    "credits" : 3,
+    "title" : "Introducción a las ciencias de la computación y a la programación",
+    "type" : "L"
+  },
+  "2026784" : {
+    "credits" : 3,
+    "title" : "Cátedra Marta Traba: Ciudades universitarias, un proyecto moderno en América Latina",
+    "type" : "L"
+  },
+  "2027100" : {
+    "credits" : 4,
+    "title" : "Intensive english II - internationalization",
+    "type" : "L"
+  },
+  "2027310" : {
+    "credits" : 3,
+    "prerequisites" : [ "2027311" ],
+    "title" : "Criptografía",
+    "type" : "L"
+  },
+  "2027311" : {
+    "credits" : 4,
+    "prerequisites" : [ "2015178", "2015181" ],
+    "title" : "Introducción a la criptografía y la teoría de la información",
+    "type" : "L"
+  },
+  "2027631" : {
+    "credits" : 4,
+    "title" : "Introducción a la inteligencia artificial",
+    "type" : "L"
+  },
+  "2027643" : {
+    "credits" : 4,
+    "prerequisites" : [ "2015178" ],
+    "title" : "Introducción al aprendizaje de máquina",
+    "type" : "L"
+  }
+}

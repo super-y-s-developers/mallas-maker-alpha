@@ -1,0 +1,30 @@
+.semesters {
+  display: flex;
+}
+.semesters > div {
+  max-width: 150px;
+  margin-right: 50px;
+}
+
+.semester {
+  text-align: center;
+}
+.semester > .title {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.semester > .subtitle {
+  margin-top: 0px;
+}
+.semester > .add {
+  font-weight: 900;
+  font-size: 1.2em;
+}
+.semester > .subjects > div {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.subjectSelected.semester .subject {
+  opacity: 0.6;
+}

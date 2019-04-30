@@ -1,0 +1,3 @@
+export const FETCH_DATA = "FETCH_DATA";
+export const FETCH_STUDENTS = "FETCH_STUDENTS";
+export const SELECT_SUBJECT = "SELECT_SUBJECT";

@@ -89,6 +89,8 @@ class Plan extends Component {
 
     return (
       <div className="App">
+        <button className="button" onClick={this.props.signOut}>Cerrar sesión</button>
+
         <Filters active={active} toggleActive={this.toggleActive} />
         <div>{careers && career && !remainingSubjects ?
           `No te falta incluir ninguna materia de ${careers[career].title} en tu malla!` :

@@ -87,13 +87,15 @@ class Plan extends Component {
     const studentSubjects = history && plan ? this.getStudentSubjects(history, plan) : [];
     const remainingSubjects = careers && career ? careers[career].subjects.filter(e => studentSubjects.indexOf(e) === -1) : [];
 
+    console.log(remainingSubjects.length === 0);
+
     return (
       <div className="App">
         <button className="button" onClick={this.props.signOut}>Cerrar sesión</button>
 
         <Filters active={active} toggleActive={this.toggleActive} />
-        <div>{careers && career && !remainingSubjects ?
-          `No te falta incluir ninguna materia de ${careers[career].title} en tu malla!` :
+        <div>{careers && career && remainingSubjects.length === 0 ?
+          `😄 No te falta incluir ninguna materia de ${careers[career].title} en tu malla!` :
           careers && career && `Te falta incluir las siguientes materias para graduarte de ${careers[career].title}:
             ${remainingSubjects.join()}`
         }</div>

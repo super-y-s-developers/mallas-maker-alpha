@@ -1,7 +1,7 @@
 import { FETCH_DATA, FETCH_STUDENTS, SELECT_SUBJECT } from 'services/actions/types';
 import { databaseRef, studentsRef } from 'services/firebase';
 
-const uid = "sebas";
+const uid = "8c8NhsAgCYcR3GlsIN5ZYdPOPRi2";
 
 // Interact with firebase database
 export const fetchData = () => async dispatch => {
@@ -58,7 +58,9 @@ export const removeSubjectFromSemester = (semesterId, subjectIndex) => async dis
 
 export const addSubjectToSemester = (semesterId, subjectId) => async dispatch => {
   studentsRef.child(`${uid}/plan/${semesterId}`).once('value', (snapshot) => {
+    console.log(snapshot.val());
     const newSemester = Array.from(snapshot.val()).filter(e => e !== null);
+    console.log(newSemester);
 
     // TODO: handle subjectId non existence error
     newSemester.push(subjectId);

@@ -11,7 +11,6 @@ import './styles.css';
 
 class Plan extends Component {
   state = {
-    studentId: "sebas",
     active: { history: false, plan: true }
   }
 
@@ -80,7 +79,8 @@ class Plan extends Component {
   }
 
   render() {
-    const { active, studentId } = this.state;
+    const { active } = this.state;
+    const studentId = this.props.currUser.uid;
     const { plan, history, career } = this.getStudentById(studentId);
     const { careers } = this.props.data;
 
@@ -131,5 +131,5 @@ class Plan extends Component {
 }
 
 
-const mapStateToProps = ({ students, data }) => { return { students, data } };
+const mapStateToProps = ({ students, data, currUser }) => { return { students, data, currUser } };
 export default connect(mapStateToProps, actions)(Plan);

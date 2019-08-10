@@ -1,3 +1,4 @@
+import { SET_CURR_USER } from 'services/actions/types';
 import { auth } from 'services/firebase';
 
 export const login = (user, password) => {
@@ -11,4 +12,8 @@ export const signOut = () => {
 
 export const sendPasswordLink = (email) => {
   return auth.sendPasswordResetEmail(email);
+}
+
+export const setCurrUser = (user) => async dispatch => {
+  dispatch({ type: SET_CURR_USER, payload: user });
 }

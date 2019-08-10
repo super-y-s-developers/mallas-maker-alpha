@@ -10,9 +10,9 @@ export default class Welcome extends Component {
     this.cards = {
       login: {
         title: "Iniciar sesión",
-        subtitle: "Ingresa las credenciales para acceder al administrador",
+        subtitle: "Ingresa las credenciales para acceder a Ataraxia",
         fields: {
-          email: { placeholder: "Correo electrónico", type: "email", required: true, value: "" },
+          email: { placeholder: "Usuario de SIA", type: "text", required: true, value: "" },
           password: { placeholder: "Contraseña", type: "password", required: true, value: "" }
         },
         links: [{ text: "¿Olvidaste tu contraseña?", cardLink: "sendPasswordLink" }]
@@ -73,8 +73,9 @@ export default class Welcome extends Component {
     this.setState({ activeAction: cardLink, card: this.cards[cardLink], error: null });
   }
 
-  doCardAction(action) {
+  doCardAction(e, action) {
     let params = [];
+    e.preventDefault();
 
     this.setState({ error: null, loading: true });
     switch(action) {
@@ -116,7 +117,7 @@ export default class Welcome extends Component {
         <div className="center">
           <div className="card">
             {loading && "Cargando ..."}
-            <form id="card-form" onSubmit={() => this.doCardAction(activeAction)}>
+            <form id="card-form" onSubmit={(e) => this.doCardAction(e, activeAction)}>
               <h2 className="title">{title}</h2>
               <p className="subtitle">{subtitle}</p>
               {error && <p className="error">{this.translateError(error.code)}</p>}

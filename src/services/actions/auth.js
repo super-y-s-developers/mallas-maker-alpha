@@ -1,7 +1,7 @@
 import { auth } from 'services/firebase';
 
-export const login = (email, password) => {
-  return auth.signInWithEmailAndPassword(email, password);
+export const login = (user, password) => {
+  return auth.signInWithEmailAndPassword(user + '@unal.edu.co', password);
 }
 
 export const signOut = () => {

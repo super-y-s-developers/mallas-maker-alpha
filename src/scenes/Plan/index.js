@@ -61,8 +61,7 @@ class Plan extends Component {
     }
     // Take action after dragging
     else {
-      const { studentId } = this.state;
-      const { plan } = this.getStudentById(studentId);
+      const { plan } = this.getStudentById(this.props.currUser.uid);
       const semesterSource = {
         id: source.droppableId,
         data: plan[source.droppableId],
@@ -80,14 +79,11 @@ class Plan extends Component {
 
   render() {
     const { active } = this.state;
-    const studentId = this.props.currUser.uid;
-    const { plan, history, career } = this.getStudentById(studentId);
+    const { plan, history, career } = this.getStudentById(this.props.currUser.uid);
     const { careers } = this.props.data;
 
     const studentSubjects = history && plan ? this.getStudentSubjects(history, plan) : [];
     const remainingSubjects = careers && career ? careers[career].subjects.filter(e => studentSubjects.indexOf(e) === -1) : [];
-
-    console.log(remainingSubjects.length === 0);
 
     return (
       <div className="App">

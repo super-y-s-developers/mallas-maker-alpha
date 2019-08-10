@@ -1,12 +1,10 @@
 import { FETCH_DATA, FETCH_STUDENTS, SELECT_SUBJECT } from 'services/actions/types';
 import { databaseRef, studentsRef } from 'services/firebase';
+import store from 'index.js';
 
-const uid = "8c8NhsAgCYcR3GlsIN5ZYdPOPRi2";
 
 // Interact with firebase database
 export const fetchData = () => async dispatch => {
-  // fetch('data/base.json').then(res => res.json()).then(data => console.log(data))
-
   databaseRef.on('value', snapshot => {
     const { subjects, subjectTypes, careers, students } = snapshot.val();
     dispatch({ type: FETCH_DATA, payload: { subjects, subjectTypes, careers } });
@@ -15,6 +13,7 @@ export const fetchData = () => async dispatch => {
 }
 
 export const reorderPlanSubject = (source, destination, subjectId) => async dispatch => {
+  const uid = store.getState().currUser.uid;
   const newSource = Array.from(source.data).filter(e => e !== undefined);
   const newDestination = Array.from(destination.data).filter(e => e !== undefined);
 
@@ -33,6 +32,7 @@ export const reorderPlanSubject = (source, destination, subjectId) => async disp
 }
 
 export const addPlanSemester = (semester) => async dispatch => {
+  const uid = store.getState().currUser.uid;
   studentsRef.child(`${uid}/plan`).once('value', snapshot => {
     const ids = Object.keys(snapshot.val());
     const [lastYear, lastSemester] = ids[ids.length - 1].split('-');
@@ -43,10 +43,12 @@ export const addPlanSemester = (semester) => async dispatch => {
 }
 
 export const removePlanSemester = (semesterId) => async dispatch => {
+  const uid = store.getState().currUser.uid;
   studentsRef.child(`${uid}/plan/${semesterId}`).set(null);
 }
 
 export const removeSubjectFromSemester = (semesterId, subjectIndex) => async dispatch => {
+  const uid = store.getState().currUser.uid;
   studentsRef.child(`${uid}/plan/${semesterId}`).once('value', (snapshot) => {
     const newSemester = Array.from(snapshot.val()).filter(e => e !== null);
 
@@ -57,10 +59,9 @@ export const removeSubjectFromSemester = (semesterId, subjectIndex) => async dis
 }
 
 export const addSubjectToSemester = (semesterId, subjectId) => async dispatch => {
+  const uid = store.getState().currUser.uid;
   studentsRef.child(`${uid}/plan/${semesterId}`).once('value', (snapshot) => {
-    console.log(snapshot.val());
     const newSemester = Array.from(snapshot.val()).filter(e => e !== null);
-    console.log(newSemester);
 
     // TODO: handle subjectId non existence error
     newSemester.push(subjectId);

@@ -87,8 +87,6 @@ class Plan extends Component {
     const studentSubjects = history && plan ? this.getStudentSubjects(history, plan) : [];
     const remainingSubjects = careers && career ? careers[career].subjects.filter(e => studentSubjects.indexOf(e) === -1) : [];
 
-    console.log(studentSubjects, remainingSubjects);
-
     return (
       <div className="App">
         <Filters active={active} toggleActive={this.toggleActive} />

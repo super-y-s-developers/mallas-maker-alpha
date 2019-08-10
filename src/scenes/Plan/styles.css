@@ -11,6 +11,8 @@
   padding: 0.5em 2em;
   opacity: 0.9;
   display: inline-block;
+  color: white;
+  border: none;
 }
 .button:hover {
   opacity: 1;
@@ -22,6 +24,8 @@
   border: solid rgba(255, 255, 255, 0.73) 1.5px;
   border-style: dashed;
   display: block;
+  font-size: 0.9em;
+  font-weight: normal;
 }
 
 .checkbox.button {

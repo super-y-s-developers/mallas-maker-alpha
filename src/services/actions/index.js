@@ -56,6 +56,17 @@ export const removeSubjectFromSemester = (semesterId, subjectIndex) => async dis
   });
 }
 
+export const addSubjectToSemester = (semesterId, subjectId) => async dispatch => {
+  studentsRef.child(`${uid}/plan/${semesterId}`).once('value', (snapshot) => {
+    const newSemester = Array.from(snapshot.val()).filter(e => e !== null);
+
+    // TODO: handle subjectId non existence error
+    newSemester.push(subjectId);
+
+    studentsRef.child(`${uid}/plan/${semesterId}`).set(newSemester);
+  });
+}
+
 
 // Interact with local state
 export const selectSubject = (subjectId, prerequisites) => async dispatch => {

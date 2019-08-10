@@ -84,10 +84,10 @@ class Plan extends Component {
     const { plan, history, career } = this.getStudentById(studentId);
     const { careers } = this.props.data;
 
-    const studentSubjects = history && plan ? this.getStudentSubjects(history, plan) : {};
+    const studentSubjects = history && plan ? this.getStudentSubjects(history, plan) : [];
     const remainingSubjects = careers && career ? careers[career].subjects.filter(e => studentSubjects.indexOf(e) === -1) : [];
 
-    console.log(remainingSubjects);
+    console.log(studentSubjects, remainingSubjects);
 
     return (
       <div className="App">

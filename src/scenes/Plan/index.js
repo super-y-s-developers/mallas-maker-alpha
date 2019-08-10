@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as actions from 'services/actions';
+import actions from 'services/actions';
 import { connect } from "react-redux";
 import { DragDropContext } from 'react-beautiful-dnd';
 
@@ -11,7 +11,7 @@ import './styles.css';
 
 class Plan extends Component {
   state = {
-    studentId: "leo",
+    studentId: "sebas",
     active: { history: false, plan: true }
   }
 

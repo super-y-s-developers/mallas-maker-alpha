@@ -16,4 +16,4 @@ export const subjectTypesRef = databaseRef.child("subjectTypes");
 export const subjectsRef = databaseRef.child("subjects");
 
 // Export auth reference
-// export const auth = firebase.auth();
+export const auth = firebase.auth();

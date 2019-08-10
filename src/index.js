@@ -6,7 +6,7 @@ import reduxThunk from "redux-thunk";
 import reducers from 'services/reducers';
 
 // Import components and styles
-import Plan from 'scenes/Plan';
+import App from './App';
 import './index.css';
 
 // Create redux store
@@ -15,6 +15,6 @@ const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
 ReactDOM.render(
   <Provider store={store}>
-    <Plan />
+    <App />
   </Provider>,
   document.getElementById('root'));

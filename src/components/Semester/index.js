@@ -39,6 +39,7 @@ class Semester extends Component {
         <h3 className="title">{id}</h3>
         <h5 className="subtitle">
           {Object.keys(semester).length} materias -
+          {semester.map(id => data.subjects[id]===undefined?console.log(id, "No existe"):"")}
           {semester.map(id => data.subjects[id].credits).reduce((acc, a) => acc + a)} creditos
         </h5>
 

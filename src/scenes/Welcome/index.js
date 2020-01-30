@@ -62,7 +62,8 @@ export default class Welcome extends Component {
     }
   }
 
-  handleInputChange(event, { name, value }) {
+  handleInputChange(event) {
+    const { name, value } = event.target;
     let newState = this.state;
     newState.card.fields[name].value = value;
     this.setState(newState);

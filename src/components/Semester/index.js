@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as actions from 'services/actions';
+import actions from 'services/actions';
 import { connect } from "react-redux";
 import { Droppable } from 'react-beautiful-dnd';
 
@@ -39,6 +39,7 @@ class Semester extends Component {
         <h3 className="title">{id}</h3>
         <h5 className="subtitle">
           {Object.keys(semester).length} materias -
+          {semester.map(id => data.subjects[id]===undefined?console.log(id, "No existe"):"")}
           {semester.map(id => data.subjects[id].credits).reduce((acc, a) => acc + a)} creditos
         </h5>
 
@@ -71,7 +72,6 @@ class Semester extends Component {
         <div className="add button" onClick={this.toggleAddSubject.bind(this)}>
           {!addSubject ? "Añadir materia" : "Cancelar"}
         </div>
-        {/* this.props.addSubjectToSemester(id, subjectId) */}
       </div>
     );
   }

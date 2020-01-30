@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import * as actions from 'services/actions';
+import actions from 'services/actions';
 import { connect } from "react-redux";
 import Subject from 'components/Subject';
 import { Draggable } from 'react-beautiful-dnd';

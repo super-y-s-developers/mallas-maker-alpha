@@ -11,7 +11,6 @@ import './styles.css';
 
 class Plan extends Component {
   state = {
-    studentId: "sebas",
     active: { history: false, plan: true }
   }
 
@@ -62,8 +61,7 @@ class Plan extends Component {
     }
     // Take action after dragging
     else {
-      const { studentId } = this.state;
-      const { plan } = this.getStudentById(studentId);
+      const { plan } = this.getStudentById(this.props.currUser.uid);
       const semesterSource = {
         id: source.droppableId,
         data: plan[source.droppableId],
@@ -80,8 +78,8 @@ class Plan extends Component {
   }
 
   render() {
-    const { active, studentId } = this.state;
-    const { plan, history, career } = this.getStudentById(studentId);
+    const { active } = this.state;
+    const { plan, history, career } = this.getStudentById(this.props.currUser.uid);
     const { careers } = this.props.data;
 
     const studentSubjects = history && plan ? this.getStudentSubjects(history, plan) : [];
@@ -89,9 +87,11 @@ class Plan extends Component {
 
     return (
       <div className="App">
+        <button className="button" onClick={this.props.signOut}>Cerrar sesión</button>
+
         <Filters active={active} toggleActive={this.toggleActive} />
-        <div>{careers && career && !remainingSubjects ?
-          `No te falta incluir ninguna materia de ${careers[career].title} en tu malla!` :
+        <div>{careers && career && remainingSubjects.length === 0 ?
+          `😄 No te falta incluir ninguna materia de ${careers[career].title} en tu malla!` :
           careers && career && `Te falta incluir las siguientes materias para graduarte de ${careers[career].title}:
             ${remainingSubjects.join()}`
         }</div>
@@ -129,5 +129,5 @@ class Plan extends Component {
 }
 
 
-const mapStateToProps = ({ students, data }) => { return { students, data } };
+const mapStateToProps = ({ students, data, currUser }) => { return { students, data, currUser } };
 export default connect(mapStateToProps, actions)(Plan);
